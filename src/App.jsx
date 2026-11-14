@@ -25,7 +25,7 @@ function App() {
 
         // Request news from our own backend
         const response = await fetch(
-          `http://localhost:5000/api/news?${params}`,
+          `https://global-news-rdc6.onrender.com/api/news?${params}`,
           { signal: controller.signal }
         );
 
